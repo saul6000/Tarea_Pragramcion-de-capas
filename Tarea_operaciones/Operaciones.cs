@@ -9,16 +9,16 @@ namespace Tarea_operaciones
 {
     public  class Operaciones
     {
-        public string paroinpar(int k, string M)
+        public string paroinpar(double k, string M)
         {
 
 
 
             if (k % 2 == 0)
-                M = "El numero es par ";
+                M = "El numero es par\n ";
             
             else
-                M = "El numero es Impar";
+                M = "El numero es Impar\n";
             return M;
 
 
@@ -27,46 +27,46 @@ namespace Tarea_operaciones
             
             
         }
-       public  string mes(int x ,string M)
+       public  string mes(double x ,string M)
         {
 
             switch (x)
             {
                 case 1:
-                    M = " El mes es Enero";
+                    M = "El mes es Enero";
                     break;
                 case 2:
-                    M = " El mes es Febrero";
+                    M = "El mes es Febrero";
                     break;
                 case 3:
-                    M = " El mes es Marzo";
+                    M = "El mes es Marzo";
                     break;
                 case 4:
-                    M = " El mes es Abril";
+                    M = "El mes es Abril";
                     break;
                 case 5:
-                    M = " El mes es Mayo";
+                    M = "El mes es Mayo";
                     break;
                 case 6:
-                    M = " El mes es Junio";
+                    M = "El mes es Junio";
                     break;
                 case 7:
-                    M=" El mes es julio";
+                    M="El mes es julio";
                     break;
                 case 8:
-                    M=" El mes es Agosto";
+                    M="El mes es Agosto";
                     break;
                 case 9:
-                    M= " El mes es Septiembre";
+                    M= "El mes es Septiembre";
                     break;
                 case 10:
-                    M =" El mes es Octubre";
+                    M ="El mes es Octubre";
                     break;
                 case 11:
-                    M=" El mes es Noviembre";
+                    M="El mes es Noviembre";
                     break;
                 case 12:
-                    M= "  El mes es Diciembre";
+                    M= "El mes es Diciembre";
                     break;
             }
 

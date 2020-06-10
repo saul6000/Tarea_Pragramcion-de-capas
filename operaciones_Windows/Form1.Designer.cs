@@ -38,7 +38,7 @@
             // 
             // btbMostrar
             // 
-            this.btbMostrar.Location = new System.Drawing.Point(80, 145);
+            this.btbMostrar.Location = new System.Drawing.Point(165, 136);
             this.btbMostrar.Name = "btbMostrar";
             this.btbMostrar.Size = new System.Drawing.Size(116, 28);
             this.btbMostrar.TabIndex = 0;
@@ -49,16 +49,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(29, 29);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label1.Location = new System.Drawing.Point(33, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(241, 17);
+            this.label1.Size = new System.Drawing.Size(420, 23);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Mostrar si un numero es par o impar ";
+            this.label1.Text = "MOSTRAR SI EL NUMERO ES PAR O IMPAR";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtingresar
             // 
-            this.txtingresar.Location = new System.Drawing.Point(80, 80);
+            this.txtingresar.Location = new System.Drawing.Point(165, 80);
             this.txtingresar.Name = "txtingresar";
             this.txtingresar.Size = new System.Drawing.Size(116, 22);
             this.txtingresar.TabIndex = 2;
@@ -68,22 +70,25 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(403, 29);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.label2.Location = new System.Drawing.Point(528, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 17);
+            this.label2.Size = new System.Drawing.Size(200, 28);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Mostrar el mes ";
+            this.label2.Text = "MOSTRAR EL MES ";
+            this.label2.UseCompatibleTextRendering = true;
             // 
             // txtmes
             // 
-            this.txtmes.Location = new System.Drawing.Point(406, 80);
+            this.txtmes.Location = new System.Drawing.Point(550, 80);
             this.txtmes.Name = "txtmes";
             this.txtmes.Size = new System.Drawing.Size(116, 22);
             this.txtmes.TabIndex = 4;
             // 
             // btbmostratmes
             // 
-            this.btbmostratmes.Location = new System.Drawing.Point(406, 145);
+            this.btbmostratmes.Location = new System.Drawing.Point(550, 136);
             this.btbmostratmes.Name = "btbmostratmes";
             this.btbmostratmes.Size = new System.Drawing.Size(116, 28);
             this.btbmostratmes.TabIndex = 5;

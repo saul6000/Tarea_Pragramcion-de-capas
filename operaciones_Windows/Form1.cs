@@ -25,9 +25,9 @@ namespace operaciones_Windows
         private void btbMostrar_Click(object sender, EventArgs e)
         {
             Tarea_operaciones.Operaciones M = new Tarea_operaciones.Operaciones();
-            int num;
+            double num;
             string s;
-            num = int.Parse(this.txtingresar.Text);
+            num = double.Parse(this.txtingresar.Text);
             s = M.paroinpar(num,"");
             MessageBox.Show(s);
            
@@ -47,9 +47,9 @@ namespace operaciones_Windows
         private void btbmostratmes_Click(object sender, EventArgs e)
         {
             Tarea_operaciones.Operaciones M = new Tarea_operaciones.Operaciones();
-            int b;
+            double b;
             string v;
-            b = int.Parse(this.txtmes.Text);
+            b = double.Parse(this.txtmes.Text);
             v = M.mes(b, "");
             MessageBox.Show(v);
         }

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tarea_operaciones", "Tarea_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "operaciones_Windows", "operaciones_Windows\operaciones_Windows.csproj", "{1577C465-C82E-4931-B04D-8664E7E21E14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operaciones_Consola", "Operaciones_Consola\Operaciones_Consola.csproj", "{8AC6F583-7902-47D9-B44C-48918D022BFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operaciones_Web", "Operaciones_Web\Operaciones_Web.csproj", "{C2466C6E-7A0F-4C1F-8D45-D3EE5E864E08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{1577C465-C82E-4931-B04D-8664E7E21E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1577C465-C82E-4931-B04D-8664E7E21E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1577C465-C82E-4931-B04D-8664E7E21E14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC6F583-7902-47D9-B44C-48918D022BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC6F583-7902-47D9-B44C-48918D022BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC6F583-7902-47D9-B44C-48918D022BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC6F583-7902-47D9-B44C-48918D022BFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2466C6E-7A0F-4C1F-8D45-D3EE5E864E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2466C6E-7A0F-4C1F-8D45-D3EE5E864E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2466C6E-7A0F-4C1F-8D45-D3EE5E864E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2466C6E-7A0F-4C1F-8D45-D3EE5E864E08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
